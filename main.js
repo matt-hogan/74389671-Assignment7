@@ -21,7 +21,8 @@ function getTheTable () {
 // section element of the HTML document.
 
 function getAllParagraphs () {
-    const myNodeList = document.querySelectorAll("p");
+    const section = document.getElementById("myPage")
+    const myNodeList = section.querySelectorAll("p");
     return myNodeList;
 }
 
